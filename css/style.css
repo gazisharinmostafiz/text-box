@@ -1,0 +1,18 @@
+/* .fieldHeight{
+    height: 300px !important;
+} */
+
+
+input {
+    resize: horizontal vertical ;
+    width: 200px;
+    height: 300px;
+}
+
+input:active {
+    width: auto;   
+}
+
+input:focus {
+    min-width: 200px;
+}
